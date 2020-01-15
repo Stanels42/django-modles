@@ -1,0 +1,19 @@
+body {
+  background-color: coral;
+}
+.book {
+  outline: 2px solid black;
+  margin-top: 10px;
+}
+.book > h2 {
+  font-size: 40px;
+}
+
+.book > p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 20px;
+}

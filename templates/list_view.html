@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}List View{% endblock title %}
+
+{% block content %}
+  {% for book in object_list %}
+  <article class = "book">
+    <h2><a href="{% url 'detail' book.pk %}">{{ book.title }}</a></h2>
+    <p>
+      {{ book.author }}
+    </p>
+  </article>
+  {% endfor %}
+{% endblock content %}

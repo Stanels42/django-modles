@@ -1,0 +1,35 @@
+#self {
+  color: teal;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav>ul>li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+main > p {
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 10px;
+}
